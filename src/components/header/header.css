@@ -1,0 +1,87 @@
+body {
+    background-color: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+}
+.wrapper {
+    background-color: rgb(42, 37, 37);
+    margin-top: 40px;
+    max-width: 600px;
+    height: 100vh;
+    margin-left: 300px;
+}
+
+.form {
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+} 
+
+.form input {
+    width: 320px;
+    height: 40px;
+    border: 2px solid blueviolet;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
+}
+.form input::placeholder {
+    padding-left: 10px;
+    color: white;
+}
+.form h1 {
+    margin-bottom: 30px;
+    color: white;
+}
+.form button {
+    position: relative;
+    top: -2px;
+    width: 70px;
+    height: 40px;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+    border: none;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    list-style: none;
+    border-radius: 3px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.item_btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+.delBtn {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+.edBtn {
+    background-color: transparent;
+    border: none;
+    color: green;
+    font-size: 20px;
+}
